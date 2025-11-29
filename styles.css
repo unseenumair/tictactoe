@@ -234,3 +234,9 @@ aside p {
 	font-size: 4rem;
 	color: var(--emojiCol); 
 }
+
+@media only screen and (orientation: portrait){
+	#gameCont {
+		transform: translateX(-15px);
+	}
+}

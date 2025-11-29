@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://us-tictactoe.netlify.app/sitemap.xml
+Sitemap: https://unseenumair.github.io/tictactoe/sitemap.xml
