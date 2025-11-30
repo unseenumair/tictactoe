@@ -165,7 +165,7 @@ const sun = document.querySelector("#sun");
 const moon = document.querySelector("#moon");
 
 document.querySelector("#toggleTheme").addEventListener("click", ()=>{
-	document.body.classList.toggle("lightMode");
+	document.body.classList.toggle("darkMode");
 	let mode = document.body.className;
 
 	if (mode === "lightMode"){

@@ -1,25 +1,25 @@
 :root {
-	--bodyBg: #192A32;
-	--boxBg: #1F3540;
-	--boxShadow: 0 7px 20px #13242C;
-	--oCol: #fec250;
-	--xCol: #2addd6;
-	--h1Bg: #1F3540;
-	--h1Col: white;
-	--toggleIconBg: #2addd6;
-	--toggleIconCol: black;
-	--emojiCol: skyblue;
-}
-
-.lightMode {
 	--bodyBg: deepskyblue;
 	--h1Bg: black;
+	--h1Col: white;
 	--oCol: white;
 	--xCol: black;
 	--toggleIconBg: white;
 	--toggleIconCol: black;
 	--boxBg: skyblue;
+	--boxShadow: 0 7px 20px #13242C;
 	--emojiCol: black;
+}
+
+.darkMode {
+	--bodyBg: #192A32;
+	--boxBg: #1F3540;
+	--oCol: #fec250;
+	--xCol: #2addd6;
+	--h1Bg: #1F3540;
+	--toggleIconBg: #2addd6;
+	--toggleIconCol: black;
+	--emojiCol: skyblue;
 }
 
 * {
