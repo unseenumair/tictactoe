@@ -33,13 +33,13 @@ function removeClass(){
 }
 
 let turn = "X";
-giveFlash();
+// giveFlash();
 
 // Toggle Turn
 function changeTurn(){
 	removeFlash();
 	turn === "X" ? turn = "O" : turn = "X";
-	giveFlash();
+	// giveFlash();
 }
 
 // Give Flash
@@ -145,9 +145,9 @@ function reset(){
 	});
 	wonLine.removeAttribute("style");
 	removeClass();
-	removeFlash();
+	// removeFlash();
 	turn = "X";
-	giveFlash();
+	// giveFlash();
 	won.pause(); // Pause Won Music
 }
 
