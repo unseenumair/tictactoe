@@ -33,23 +33,25 @@ function removeClass(){
 }
 
 let turn = "X";
-// giveFlash();
+giveFlash();
 
 // Toggle Turn
 function changeTurn(){
 	removeFlash();
 	turn === "X" ? turn = "O" : turn = "X";
-	// giveFlash();
+	giveFlash();
 }
 
 // Give Flash
 function giveFlash(){
-	document.querySelector(`.${turn.toLowerCase()}`).classList.add("turn");
+	// document.querySelector(`.${turn.toLowerCase()}`).classList.add("turn");
+	return ""
 }
 
 // Remove Flash
 function removeFlash(){
-	document.querySelector(`.${turn.toLowerCase()}`).classList.remove("turn");
+	// document.querySelector(`.${turn.toLowerCase()}`).classList.remove("turn");
+	return ""
 }
 
 // Draw Won Line 
@@ -145,9 +147,9 @@ function reset(){
 	});
 	wonLine.removeAttribute("style");
 	removeClass();
-	// removeFlash();
+	removeFlash();
 	turn = "X";
-	// giveFlash();
+	giveFlash();
 	won.pause(); // Pause Won Music
 }
 
