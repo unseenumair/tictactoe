@@ -126,13 +126,20 @@ h1 a {
 #toggleTheme {
 	border-radius: 10px;
 	background: var(--toggleIconBg);
-	padding: 10px;
+	width: clamp(30px, 7vmax, 40px);
+	height: clamp(30px, 7vmax, 40px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: var(--toggleIconCol);
 	font-size: 1.5rem;
 	cursor: pointer;
+	opacity: 0;
+	animation: show 2s ease forwards;
+}
+
+@keyframes show {
+	to { opacity: 1; }
 }
 
 #sun,
