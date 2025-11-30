@@ -44,14 +44,12 @@ function changeTurn(){
 
 // Give Flash
 function giveFlash(){
-	// document.querySelector(`.${turn.toLowerCase()}`).classList.add("turn");
-	return
+	document.querySelector(`.${turn.toLowerCase()}`).classList.add("turn");
 }
 
 // Remove Flash
 function removeFlash(){
-	// document.querySelector(`.${turn.toLowerCase()}`).classList.remove("turn");
-	return
+	document.querySelector(`.${turn.toLowerCase()}`).classList.remove("turn");
 }
 
 // Draw Won Line 
