@@ -170,13 +170,13 @@ document.querySelector("#toggleTheme").addEventListener("click", ()=>{
 	document.body.classList.toggle("darkMode");
 	let mode = document.body.className;
 
-	if (mode === "lightMode"){
-		moon.style.fontSize = "0";
-		sun.style.fontSize = "1.5rem";
+	if (mode === "darkMode"){
+		sun.style.fontSize = "0";
+		moon.style.fontSize = "1.5rem";
 	}
 
 	else {
-		sun.style.fontSize = "0";
-		moon.style.fontSize = "1.5rem";
+		moon.style.fontSize = "0";
+		sun.style.fontSize = "1.5rem";
 	}
 });
